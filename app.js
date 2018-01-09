@@ -13,7 +13,8 @@ app.use(methodOverride("_method"));
 
 
 //Mongoose Config
-mongoose.connect("mongodb://localhost/restfulBlog");
+//mongoose.connect("mongodb://localhost/restfulBlog");
+mongoose.connect("mongodb://freespace:yoyoyoyo143@ds163745.mlab.com:63745/restfulblog");
 
 var blogSchema = new mongoose.Schema({
     
