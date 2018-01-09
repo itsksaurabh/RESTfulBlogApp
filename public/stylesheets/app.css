@@ -1,0 +1,27 @@
+i.icon{
+    
+    font-size: 2em;
+}
+
+.container.main {
+    
+    margin-top: 7.0em;
+}
+
+#deletebtn{
+    
+    display: inline;
+}
+
+i.Chevron{
+     font-size: 0.8em;
+}
+
+
+img#avatar{
+    
+    height : 100px;
+    width : 150px;
+    
+    
+}
