@@ -2,9 +2,10 @@
 
 <div class="ui main text container ">
     <div class="ui huge header">All Posts</div>
-    <div class="ui raised top attached segment">
-        <div class="ui divided items">
+   
                 <% allblogs.forEach(function(blog){%>
+                 <div class="ui piled segment">
+                 <div  class="ui divided items">
                     <div class="item">
                     <div class="image">
                       <img id="avatar"src="<%= blog.image %>">
@@ -25,25 +26,12 @@
                       </div>
                     </div>
                   </div>
-            <% }) %>
-            </div>
+                   </div>
             
         </div>
+            <% }) %>
+           
     </div>
 
-<% allblogs.forEach(function(blog){%>
-    
-    <!--<div>-->
-    <!--    <p><%= blog.title %></p>-->
-    <!--    <img src="<%= blog.image %>">-->
-    <!--    <span><%= blog.created %></span>-->
-    <!--    <p><%= blog.body.substring(0,50) %>....</p>-->
-    <!--    <a href="/blogs/<%= blog._id %>">Read More</a>-->
-        
-    <!--</div>-->
-    
- 
-
-<% }) %>
 
 <% include ./partials/footer %>

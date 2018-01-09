@@ -28,16 +28,9 @@ var blogSchema = new mongoose.Schema({
 
 var blog = mongoose.model("blog", blogSchema);
 
-// blog.create({
-//     title :"Spiti Valley, Himachal Pradesh",
-//     image:"https://www.indianholiday.com/blog/wp-content/uploads/2014/12/Lahual-spiti.jpg",
-//     body : "Cool location"
-// })
 
 
 //Restful Routes
-
-
 //index route
 app.get("/blogs", function(req,res){
     
