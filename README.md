@@ -27,3 +27,13 @@ Available online : http://restfulblogdemo.herokuapp.com
 <li>body-parser</li>
 <li>method-override</li>
 </ul>
+
+# Run
+```
+$node app.js
+```
+
+# Help & Support
+<ul>
+  <li><a href="https://in.linkedin.com/in/itsksaurabh">Author</a></li>
+</ul>
